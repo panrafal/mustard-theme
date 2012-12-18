@@ -3,11 +3,13 @@ MUSTARD
 
 Readable dark theme for web developers. Available for Netbeans and Notepad++.
 
-Supports *PHP*, *HTML*, *CSS* and *JavaScript*.
+Supports **PHP**, **HTML**, **CSS** and **JavaScript**.
 
 Best served with Consolas.
 
 Based on [Waher style](http://waher.net/archives/1013) by Kristo Vaher
+
+![PHP Preview](https://raw.github.com/panrafal/mustard-theme/master/preview-php.png)
 
 Instalation
 ===========
