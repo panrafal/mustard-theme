@@ -5,7 +5,7 @@
     <fontcolor default="default" foreColor="white" name="mod-method"/>
     <fontcolor default="uncovered" name="uncovered"/>
     <fontcolor default="identifier" foreColor="fff7c527" name="PHP_STRING"/>
-    <fontcolor bgColor="ff343434" default="default" foreColor="fff7c527" name="mark-occurrences"/>
+    <fontcolor bgColor="ff343434" default="default" name="mark-occurrences"/>
     <fontcolor default="mod-class" foreColor="ffecd795" name="mod-field"/>
     <fontcolor default="default" name="heredocdelimiter"/>
     <fontcolor default="default" foreColor="ff63cbda" name="phpopenclose">
