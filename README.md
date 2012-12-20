@@ -3,7 +3,7 @@ MUSTARD
 
 Readable dark theme for web developers. Available for Netbeans and Notepad++.
 
-Supports **PHP**, **HTML**, **CSS** and **JavaScript**.
+Supports **PHP**, **HTML**, **CSS**, **INI**, and **JavaScript**. On Notepad++ there is also **LESS** (with completion), **Markdown** and **Apache configs** (with completion).
 
 Best served with Consolas.
 
@@ -18,6 +18,8 @@ Notepad ++
 ----------
 
 - Copy `Notepad/Mustard.xml` to `c:\Program Files (x86)\Notepad++\themes\`
+- Copy `Notepad/APIs/*` to `c:\Program Files (x86)\Notepad++\plugins\APIs`
+- Import `Notepad/userDefineLang*.xml` in *Language* -> _Define your language_
 - Restart Notepad++
 - Choose the theme
 
