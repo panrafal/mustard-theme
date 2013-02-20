@@ -54,3 +54,5 @@ Colors
 <tr style="color:#73E4F6;"><td>Numbers, RegEx, Control</td><td>#73E4F6</td><td>115</td><td>228</td><td>246</td></tr>
 <tr style="color:#80A78C;"><td>Coments</td><td>#80A78C</td><td>128</td><td>167</td><td>140</td></tr>
 </table> 
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/95ce03b95f25ae35b54a759b7ac51ae0 "githalytics.com")](http://githalytics.com/panrafal/mustard-theme)
