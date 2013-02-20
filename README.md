@@ -1,7 +1,7 @@
 MUSTARD
 =======
 
-Readable dark theme for web developers. Available for Netbeans and Notepad++.
+Readable dark theme for web developers. Available for Netbeans, Notepad++, Textmate, Sublime 2 and HighlightJS.
 
 Supports **PHP**, **HTML**, **CSS**, **INI**, and **JavaScript**. On Notepad++ there is also **LESS** (with completion), **Markdown** and **Apache configs** (with completion).
 
@@ -29,6 +29,15 @@ Netbeans
 
 - Zip the contents of `Netbeans`
 - Import the zip in settings
+
+
+Sublime 2
+---------
+
+- Copy `Mustard.tmTheme` to `Packages/Color Scheme - Default`
+- choose it
+
+-------------------------------------------------------------------------------
 
 Colors
 ======

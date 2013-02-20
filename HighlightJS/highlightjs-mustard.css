@@ -1,0 +1,106 @@
+/*
+
+Mustard theme by Rafal Lindemann
+https://github.com/panrafal/mustard-theme
+
+*/
+
+pre code {
+  display: block; padding: 0.5em;
+  color: #FFFFFF;
+  background: #191919;
+}
+
+pre .comment,
+pre .template_comment,
+pre .diff .header,
+pre .doctype,
+pre .lisp .string,
+pre .javadoc {
+  color: #80A78C;
+  font-style: italic;
+}
+
+pre .keyword,
+pre .css .rule .keyword,
+pre .winutils,
+pre .javascript .title,
+pre .method,
+pre .addition,
+pre .css .tag,
+pre .clojure .title,
+pre .nginx .title {
+  color: #EC691E;
+}
+
+pre .command,
+pre .number,
+pre .tag .value,
+pre .phpdoc,
+pre .tex .formula,
+pre .regexp,
+pre .hexcolor {
+  color: #73E4F6;
+}
+
+pre .string {
+  color: #A1D7F2;
+}
+
+pre .title,
+pre .localvars,
+pre .function .title,
+pre .chunk,
+pre .decorator,
+pre .built_in,
+pre .lisp .title,
+pre .clojure .built_in,
+pre .identifier,
+pre .id {
+  color: #FFB03B;
+}
+
+pre .attribute,
+pre .variable,
+pre .lisp .body,
+pre .smalltalk .number,
+pre .constant,
+pre .class .title,
+pre .parent,
+pre .haskell .type {
+  color: #ECD795;
+}
+
+pre .css .attribute {
+  color: #b89859;
+}
+
+pre .css .number,pre .css .hexcolor{
+  color: #DCCF8F;
+}
+
+pre .css .class {
+  color: #d3a60c;
+}
+
+pre .preprocessor,
+pre .pi,
+pre .shebang,
+pre .symbol,
+pre .symbol .string,
+pre .diff .change,
+pre .special,
+pre .attr_selector,
+pre .important,
+pre .subst,
+pre .cdata {
+  color: #cb4b16;
+}
+
+pre .deletion {
+  color: #dc322f;
+}
+
+pre .tex .formula {
+  background: #073642;
+}
