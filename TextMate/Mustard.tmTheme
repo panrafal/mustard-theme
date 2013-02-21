@@ -48,6 +48,28 @@
 				<string>stippled_underline</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>source.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ecd795</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Text</string>
+			<key>scope</key>
+			<string>text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dddddd</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Comment</string>
@@ -89,7 +111,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#73e4f6</string>
+				<string>#ec691e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -112,6 +134,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#ecd795</string>				
 			</dict>
 		</dict>
 		<dict>
@@ -125,6 +149,28 @@
 				<string>#ec691e</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword control</string>
+			<key>scope</key>
+			<string>keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>				
+			</dict>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>Keyword operator</string>
+			<key>scope</key>
+			<string>keyword.operator - keyword.operator.new, meta.delimiter, meta.brace, punctuation.terminator, punctuation.definition.function, punctuation.definition.tag, punctuation.definition.parameters</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>		
 		<dict>
 			<key>name</key>
 			<string>Storage</string>
@@ -142,13 +188,13 @@
 			<key>name</key>
 			<string>Storage type</string>
 			<key>scope</key>
-			<string>storage.type</string>
+			<string>storage.type, storage.modifier</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#ec691e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -190,7 +236,18 @@
 				<string>#f7c527</string>
 			</dict>
 		</dict>
-		<dict>
+<!-- 		<dict>
+			<key>name</key>
+			<string>Function call</string>
+			<key>scope</key>
+			<string>meta.function-call</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f7c527</string>
+			</dict>
+		</dict>
+ -->		<dict>
 			<key>name</key>
 			<string>Function argument</string>
 			<key>scope</key>
@@ -198,7 +255,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
 				<string>#ecd795</string>
 			</dict>
@@ -220,7 +277,7 @@
 			<key>name</key>
 			<string>Tag attribute</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name</string>
+			<string>entity.other.attribute-name, entity.other.less.mixin</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -239,7 +296,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#ec691e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -252,20 +309,18 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#73e4f6</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Library class/type</string>
 			<key>scope</key>
-			<string>support.type, support.class</string>
+			<string>support.type - support.type.property-name, support.class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#f7c527</string>
 			</dict>
 		</dict>
 		<dict>
@@ -314,8 +369,10 @@
 			<string>meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
+				<!--
 				<key>foreground</key>
 				<string>#CFCFC2</string>
+			-->
 			</dict>
 		</dict>
 
@@ -382,6 +439,19 @@
 				<string>#a1d7f2</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>punctuation.section.embedded</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#73e4f6</string>
+			</dict>
+		</dict>
+
 
 	</array>
 	<key>uuid</key>
