@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
 <fontscolors>
-    <fontcolor default="default" foreColor="ffecd795" name="PHP_VARIABLE"/>
     <fontcolor default="default" foreColor="white" name="mod-method"/>
+    <fontcolor default="comment" name="mod-annotation-type">
+        <font style="bold"/>
+    </fontcolor>
     <fontcolor default="uncovered" name="uncovered"/>
-    <fontcolor default="identifier" foreColor="fff7c527" name="PHP_STRING"/>
+    <fontcolor name="mod-deprecated" strikeThrough="black"/>
     <fontcolor bgColor="ff343434" default="default" name="mark-occurrences"/>
     <fontcolor default="mod-class" foreColor="ffecd795" name="mod-field"/>
     <fontcolor default="default" name="heredocdelimiter"/>
@@ -12,28 +14,29 @@
         <font style="bold"/>
     </fontcolor>
     <fontcolor default="covered" name="covered"/>
-    <fontcolor foreColor="black" name="PHP_CONTENT"/>
     <fontcolor default="PHP_VARIABLE" name="constant"/>
+    <fontcolor default="comment" name="linecomment"/>
     <fontcolor default="keyword" name="keyword">
         <font style="bold"/>
     </fontcolor>
-    <fontcolor default="number" name="number"/>
     <fontcolor default="default" name="mod-static">
         <font style="italic"/>
     </fontcolor>
+    <fontcolor default="number" name="number"/>
     <fontcolor default="partial" name="partial"/>
     <fontcolor default="inferred" name="inferred"/>
     <fontcolor default="operator" foreColor="white" name="operator"/>
-    <fontcolor foreColor="black" name="T_INLINE_HTML"/>
     <fontcolor default="default" name="mod-class"/>
     <fontcolor name="mod-unused" waveUnderlined="ff999999"/>
-    <fontcolor default="comment" foreColor="ffb0c6a6" name="htmltag"/>
     <fontcolor default="string" foreColor="ffbdd7f2" name="string"/>
     <fontcolor name="mod-custom1">
         <font style="bold"/>
     </fontcolor>
     <fontcolor default="comment" name="comment"/>
-    <fontcolor default="comment" name="phpdockeyword"/>
+    <fontcolor default="comment" name="phpdockeyword">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor foreColor="ffecd795" name="variable"/>
     <fontcolor default="identifier" name="identifier"/>
     <fontcolor default="separator" foreColor="white" name="separator"/>
 </fontscolors>

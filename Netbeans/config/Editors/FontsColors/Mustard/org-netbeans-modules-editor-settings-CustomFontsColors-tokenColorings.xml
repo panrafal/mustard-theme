@@ -13,7 +13,7 @@
     <fontcolor default="default" name="url" underline="ff444444"/>
     <fontcolor default="identifier" foreColor="ffecd795" name="field"/>
     <fontcolor bgColor="ff191919" default="default" foreColor="white" name="default">
-        <font name="Consolas" size="14" style="plain"/>
+        <font name="Consolas" size="16" style="plain"/>
     </fontcolor>
     <fontcolor default="default" foreColor="ffb9d5f0" name="string"/>
     <fontcolor default="default" foreColor="gray" name="entity-reference">
@@ -24,7 +24,7 @@
     <fontcolor default="default" foreColor="ff95a78c" name="comment">
         <font style="plain"/>
     </fontcolor>
-    <fontcolor default="default" name="identifier"/>
+    <fontcolor default="default" foreColor="fff7c527" name="identifier"/>
     <fontcolor default="default" name="warning" waveUnderlined="ffb88048"/>
     <fontcolor default="default" foreColor="white" name="separator"/>
     <fontcolor default="field" name="markup-attribute"/>

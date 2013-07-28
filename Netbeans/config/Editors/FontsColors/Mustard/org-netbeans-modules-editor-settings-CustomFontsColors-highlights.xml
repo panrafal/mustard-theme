@@ -9,10 +9,10 @@
     <fontcolor bgColor="ffdfdfdf" name="readonly-files"/>
     <fontcolor default="default" foreColor="cyan" name="nbeditor-bracesMatching-match-multichar"/>
     <fontcolor default="default" foreColor="ff666666" name="line-number"/>
-    <fontcolor bgColor="ff222220" default="default" name="highlight-caret-row"/>
-    <fontcolor foreColor="blue" name="hyperlinks" underline="blue"/>
+    <fontcolor bgColor="ff292927" default="default" name="highlight-caret-row"/>
+    <fontcolor foreColor="white" name="hyperlinks" underline="blue"/>
     <fontcolor foreColor="red" name="status-bar-bold"/>
-    <fontcolor foreColor="black" name="caret-color-overwrite-mode"/>
+    <fontcolor foreColor="white" name="caret-color-overwrite-mode"/>
     <fontcolor bgColor="ff505050" default="default" foreColor="white" name="selection"/>
     <fontcolor name="status-bar"/>
     <fontcolor bgColor="ffffb442" foreColor="black" name="inc-search"/>

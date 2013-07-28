@@ -4,23 +4,32 @@
     <fontcolor name="mod-constructor">
         <font style="bold"/>
     </fontcolor>
+    <fontcolor foreColor="ffecd795" name="mod-local-variable"/>
     <fontcolor default="number" name="hashes"/>
-    <fontcolor default="keyword" name="keywords"/>
     <fontcolor foreColor="ffe9903b" name="mod-method">
         <font style="bold"/>
     </fontcolor>
     <fontcolor default="default" name="others"/>
     <fontcolor default="string" name="uris"/>
-    <fontcolor default="identifier" foreColor="fff7c527" name="identifiers"/>
     <fontcolor default="separator" name="braces"/>
+    <fontcolor default="identifier" name="identifiers"/>
+    <fontcolor foreColor="ffec691e" name="mod-private">
+        <font style="bold"/>
+    </fontcolor>
     <fontcolor default="separator" name="separators"/>
     <fontcolor default="string" name="strings"/>
     <fontcolor default="default" name="whitespaces"/>
     <fontcolor foreColor="white" name="mod-class"/>
-    <fontcolor bgColor="ffeceba3" name="mark-occurrences"/>
+    <fontcolor foreColor="ffec691e" name="at_rule_symbol">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor bgColor="ff505050" name="mark-occurrences"/>
     <fontcolor default="number" name="numbers"/>
     <fontcolor foreColor="ffecd795" name="mod-custom1"/>
     <fontcolor default="operator" name="operators"/>
+    <fontcolor foreColor="ffec691e" name="mod-custom3">
+        <font style="italic"/>
+    </fontcolor>
     <fontcolor foreColor="fff7c527" name="mod-custom2">
         <font style="italic"/>
     </fontcolor>
