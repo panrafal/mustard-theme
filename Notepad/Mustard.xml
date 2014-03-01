@@ -41,7 +41,7 @@ License:             GNU Free License.
         <LexerType name="coffeescript" desc="CoffeeScript" ext="">
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="D82727" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="DFC47D" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="E08056" bgColor="191919" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="E08056" bgColor="191919" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="E08056" bgColor="191919" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="85E4F6" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="B9D5F0" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
@@ -49,16 +49,16 @@ License:             GNU Free License.
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9F9D6D" bgColor="191919" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="E08056" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="REGEX" styleID="14" fgColor="B9D5F0" bgColor="191919" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="PREDEFINED CONSTANT" styleID="19" fgColor="DFC47D" bgColor="191919" fontName="" fontStyle="1" fontSize="" keywordClass="type2" />
-            <WordsStyle name="COMMENT BLOCK" styleID="22" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="VERBOSE REGEX" styleID="23" fgColor="B9D5F0" bgColor="191919" fontName="" fontStyle="3" fontSize="" />
-            <WordsStyle name="VERBOSE REGEX COMMENT" styleID="24" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="PREDEFINED CONSTANT" styleID="19" fgColor="1BC5B4" bgColor="191919" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+            <WordsStyle name="COMMENT BLOCK" styleID="22" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="VERBOSE REGEX" styleID="23" fgColor="B9D5F0" bgColor="191919" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="VERBOSE REGEX COMMENT" styleID="24" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="3" fontSize="" />
         </LexerType>
         <LexerType name="sql" desc="SQL" ext="">
             <WordsStyle name="KEYWORD" styleID="5" fgColor="F7C527" bgColor="191919" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
