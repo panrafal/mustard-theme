@@ -1,9 +1,7 @@
 MUSTARD
 =======
 
-Readable dark theme for web developers. Available for Netbeans, Notepad++, Textmate, Sublime 2 and HighlightJS.
-
-Supports **PHP**, **HTML**, **CSS**, **INI**, and **JavaScript**. On Notepad++ there is also **LESS** (with completion), **Markdown** and **Apache configs** (with completion).
+Readable dark theme for web developers. Available for IntelliJ, Netbeans, Notepad++, Textmate, Sublime 2 and HighlightJS.
 
 Best served with Consolas.
 
@@ -13,6 +11,12 @@ Based on [Waher style](http://waher.net/archives/1013) by Kristo Vaher
 
 Instalation
 ===========
+
+IntelliJ
+--------
+
+- Zip the contents of `IntelliJ`, rename it to `*.jar`
+- Import the jar in `File > Import settings`
 
 Notepad ++
 ----------
