@@ -172,6 +172,55 @@ License:             GNU Free License.
             <WordsStyle name="Selected Line" styleID="5" fgColor="C0C0C0" bgColor="3E3E3E" fontName="" fontStyle="1" fontSize="" keywordClass="type1">bool long int char</WordsStyle>
             <WordsStyle name="Current line background colour" styleID="6" fgColor="B9D5F0" bgColor="585858" fontName="" fontStyle="1" fontSize="">bool long int char</WordsStyle>
         </LexerType>
+        <LexerType name="perl" desc="Perl" ext="">
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="EC691E" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="COMMENTLINE" styleID="2" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="WORD" styleID="5" fgColor="F7C527" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FFFFFF" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="PUNCTUATION" styleID="8" fgColor="FFFFFF" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="73E4F6" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="REGEX" styleID="17" fgColor="73E4F6" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="REGSUBST" styleID="18" fgColor="73E4F6" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="ERROR" styleID="1" fgColor="EC691E" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="POD" styleID="3" fgColor="80A78C" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="POD_VERB" styleID="31" fgColor="73E4F6" bgColor="191919" fontStyle="1" />
+            <!-- Strings -->
+            <WordsStyle name="STRING" styleID="6" fgColor="A1D7F2" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="A1D7F2" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="STRING_Q" styleID="26" fgColor="A1D7F2" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="STRING_QQ" styleID="27" fgColor="A1D7F2" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="STRING_QX" styleID="28" fgColor="A1D7F2" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="STRING_QR" styleID="29" fgColor="A1D7F2" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="STRING_QW" styleID="30" fgColor="A1D7F2" bgColor="191919" fontStyle="0" />
+            <!-- Variables -->
+            <WordsStyle name="SCALAR" styleID="12" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="ARRAY" styleID="13" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="HASH" styleID="14" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="SYMBOLTABLE" styleID="15" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="VARIABLE_INDEXER" styleID="16" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="STRING_VAR" styleID="43" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="REGEX_VAR" styleID="54" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="REGSUBST_VAR" styleID="55" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="BACKTICKS_VAR" styleID="57" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="HERE_QQ_VAR" styleID="61" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="HERE_QX_VAR" styleID="62" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="STRING_QQ_VAR" styleID="64" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="STRING_QX_VAR" styleID="65" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <WordsStyle name="STRING_QR_VAR" styleID="66" fgColor="ECD795" bgColor="191919" fontStyle="1" />
+            <!-- Not encountered -->
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="FF0000" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="LONGQUOTE" styleID="19" fgColor="FF0000" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="BACKTICKS" styleID="20" fgColor="FF0000" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="DATASECTION" styleID="21" fgColor="FF0000" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="HERE_DELIM" styleID="22" fgColor="FF0000" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="HERE_Q" styleID="23" fgColor="FF0000" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="HERE_QQ" styleID="24" fgColor="FF0000" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="HERE_QX" styleID="25" fgColor="FF0000" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="SUB_PROTOTYPE" styleID="40" fgColor="FF0000" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="FORMAT_IDENT" styleID="41" fgColor="FF0000" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="FORMAT" styleID="42" fgColor="FF0000" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="XLAT" styleID="44" fgColor="FF0000" bgColor="191919" fontStyle="0" />
+        </LexerType>
     </LexerStyles>
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
