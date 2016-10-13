@@ -207,19 +207,6 @@ License:             GNU Free License.
             <WordsStyle name="STRING_QQ_VAR" styleID="64" fgColor="ECD795" bgColor="191919" fontStyle="1" />
             <WordsStyle name="STRING_QX_VAR" styleID="65" fgColor="ECD795" bgColor="191919" fontStyle="1" />
             <WordsStyle name="STRING_QR_VAR" styleID="66" fgColor="ECD795" bgColor="191919" fontStyle="1" />
-            <!-- Not encountered -->
-            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="FF0000" bgColor="191919" fontStyle="0" />
-            <WordsStyle name="LONGQUOTE" styleID="19" fgColor="FF0000" bgColor="191919" fontStyle="0" />
-            <WordsStyle name="BACKTICKS" styleID="20" fgColor="FF0000" bgColor="191919" fontStyle="0" />
-            <WordsStyle name="DATASECTION" styleID="21" fgColor="FF0000" bgColor="191919" fontStyle="0" />
-            <WordsStyle name="HERE_DELIM" styleID="22" fgColor="FF0000" bgColor="191919" fontStyle="0" />
-            <WordsStyle name="HERE_Q" styleID="23" fgColor="FF0000" bgColor="191919" fontStyle="0" />
-            <WordsStyle name="HERE_QQ" styleID="24" fgColor="FF0000" bgColor="191919" fontStyle="0" />
-            <WordsStyle name="HERE_QX" styleID="25" fgColor="FF0000" bgColor="191919" fontStyle="0" />
-            <WordsStyle name="SUB_PROTOTYPE" styleID="40" fgColor="FF0000" bgColor="191919" fontStyle="0" />
-            <WordsStyle name="FORMAT_IDENT" styleID="41" fgColor="FF0000" bgColor="191919" fontStyle="0" />
-            <WordsStyle name="FORMAT" styleID="42" fgColor="FF0000" bgColor="191919" fontStyle="0" />
-            <WordsStyle name="XLAT" styleID="44" fgColor="FF0000" bgColor="191919" fontStyle="0" />
         </LexerType>
     </LexerStyles>
     <GlobalStyles>
