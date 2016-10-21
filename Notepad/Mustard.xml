@@ -208,6 +208,58 @@ License:             GNU Free License.
             <WordsStyle name="STRING_QX_VAR" styleID="65" fgColor="ECD795" bgColor="191919" fontStyle="1" />
             <WordsStyle name="STRING_QR_VAR" styleID="66" fgColor="ECD795" bgColor="191919" fontStyle="1" />
         </LexerType>
+        <LexerType name="c" desc="C" ext="">
+            <WordsStyle name="WORD" styleID="5" fgColor="EC691E" bgColor="191919" fontStyle="1" fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="A1D7F2" bgColor="191919" fontStyle="1" fontSize="" />
+            <WordsStyle name="WORD2" styleID="16" fgColor="EC691E" bgColor="191919" fontStyle="1" fontSize="" />
+            <WordsStyle name="GLOBALCLASS" styleID="19" fgColor="F7C527" bgColor="191919" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="ECD795" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FFFFFF" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRINGEOL" styleID="12" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRINGRAW" styleID="20" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="TRIPLEVERBATIM" styleID="21" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="HASHQUOTEDSTRING" styleID="22" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="73E4F6" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="73E4F6" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="USERLITERAL" styleID="25" fgColor="F7C527" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="COMMENTLINE" styleID="2" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="COMMENTDOC" styleID="3" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="COMMENTLINEDOC" styleID="15" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="COMMENTDOCKEYWORD" styleID="17" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="COMMENTDOCKEYWORDERROR" styleID="18" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="PREPROCESSORCOMMENT" styleID="23" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="PREPROCESSORCOMMENTDOC" styleID="24" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+        </LexerType>
+        <LexerType name="cpp" desc="C++" ext="">
+            <WordsStyle name="WORD" styleID="5" fgColor="EC691E" bgColor="191919" fontStyle="1" fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="A1D7F2" bgColor="191919" fontStyle="1" fontSize="" />
+            <WordsStyle name="WORD2" styleID="16" fgColor="EC691E" bgColor="191919" fontStyle="1" fontSize="" />
+            <WordsStyle name="GLOBALCLASS" styleID="19" fgColor="F7C527" bgColor="191919" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="ECD795" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FFFFFF" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRINGEOL" styleID="12" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRINGRAW" styleID="20" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="TRIPLEVERBATIM" styleID="21" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="HASHQUOTEDSTRING" styleID="22" fgColor="A1D7F2" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="73E4F6" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="73E4F6" bgColor="191919" fontStyle="0" fontSize="" />
+            <WordsStyle name="USERLITERAL" styleID="25" fgColor="F7C527" bgColor="191919" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="COMMENTLINE" styleID="2" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="COMMENTDOC" styleID="3" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="COMMENTLINEDOC" styleID="15" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="COMMENTDOCKEYWORD" styleID="17" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="COMMENTDOCKEYWORDERROR" styleID="18" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="PREPROCESSORCOMMENT" styleID="23" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+            <WordsStyle name="PREPROCESSORCOMMENTDOC" styleID="24" fgColor="80A78C" bgColor="191919" fontStyle="3" />
+        </LexerType>
     </LexerStyles>
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
