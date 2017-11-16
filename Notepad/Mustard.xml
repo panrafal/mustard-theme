@@ -154,7 +154,7 @@ License:             GNU Free License.
             <WordsStyle name="STRING" styleID="3" fgColor="B9D5F0" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="4" fgColor="B9D5F0" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="KEYWORDS" styleID="5" fgColor="E08056" bgColor="191919" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TRIPLE" styleID="6" fgColor="85E4F6" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TRIPLE" styleID="6" fgColor="95A78C" bgColor="191919" fontName="" fontStyle="3" fontSize="" />
             <WordsStyle name="TRIPLEDOUBLE" styleID="7" fgColor="85E4F6" bgColor="191919" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CLASSNAME" styleID="8" fgColor="E08056" bgColor="191919" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="DEFNAME" styleID="9" fgColor="E08056" bgColor="191919" fontName="" fontStyle="1" fontSize="" />
